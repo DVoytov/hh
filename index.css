@@ -1,6 +1,4 @@
-
-
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 
 * {
   margin: 0;
@@ -9,9 +7,11 @@
 }
 
 body {
-  background-color: #eee;
-  font-family: 'Lato', sans-serif;
+  background-color: white;
+  font-family: 'Koulen', cursive;
 }
+
+
 
 #page-wrapper {
   position: relative;
@@ -48,6 +48,7 @@ a {
 
 .grid {
   display: flex;
+  justify-content: center;
 }
 
 header {
@@ -58,7 +59,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: red;
 }
 
 @media (max-width: 600px) {
@@ -155,11 +156,11 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  background-color: red;
 }
 
 #hero input[type='submit']:hover {
-  background-color: orange;
+  background-color: white;
   transition: background-color 1s;
 }
 
@@ -169,11 +170,11 @@ nav > ul {
   }
 }
 
-#features {
+#benefits {
   margin-top: 30px;
 }
 
-#features .icon {
+#benefits .icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,22 +184,26 @@ nav > ul {
 }
 
 @media (max-width: 550px) {
-  #features .icon {
+  #bebefits .icon {
     display: none;
   }
 }
 
-#features .desc {
+
+
+
+#benefits .desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 125px;
-  width: 80vw;
+  max-width: 300px;
   padding: 5px;
+  
 }
 
 @media (max-width: 550px) {
-  #features .desc {
+  #benefits .desc {
     width: 100%;
     text-align: center;
     padding: 0;
@@ -207,7 +212,7 @@ nav > ul {
 }
 
 @media (max-width: 650px) {
-  #features {
+  #benefits {
     margin-top: 0;
   }
 }
@@ -242,7 +247,7 @@ nav > ul {
 }
 
 .product > .level {
-  background-color: #ddd;
+  background-color: red;
   color: black;
   padding: 15px 0;
   width: 100%;
@@ -288,7 +293,7 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
+  background-color: red;
   padding: 20px;
 }
 
